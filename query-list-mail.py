@@ -119,7 +119,7 @@ if __name__ == "__main__":
     scopes = ['https://www.googleapis.com/auth/webmasters.readonly']
     site_url = 'sc-domain:botpresso.com'  # or 'sc-domain:botpresso.com'
 
-    queries = ['botpresso', 'botpresso extension', 'botpresso seo extension']
+    queries = ['botpresso', 'botpresso extension', 'botpresso seo extension' , 'saas seo checklist']
 
     try:
         service = initialize_gsc_service(service_account_json_key, scopes)
@@ -151,7 +151,7 @@ if __name__ == "__main__":
             # Email parameters
             email_sender = 'harryraj1413@gmail.com'
             email_password = 'tvgy rtda iqnp qdwi'  # Retrieve from environment variable
-            email_receivers = ['harry.raj@learner.manipal.edu', 'harryraj1413@gmail.com']
+            email_receivers = ['harry.raj@learner.manipal.edu', 'harryraj1413@gmail.com', 'kunjal@botpresso.com']
             subject = 'Queries with Significant Decrease in Clicks'
 
             # Send email
