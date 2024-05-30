@@ -115,7 +115,7 @@ def send_email(sender, receivers, subject, html_content, password):
 
 if __name__ == "__main__":
     # Google Search Console parameters
-    service_account_json_key = 'botpresso-mail-automate-service-key.json'
+    service_account_json_key = '/home/azureuser/Botpresso-Mail-Azure/botpresso-mail-automate-service-key.json'
     scopes = ['https://www.googleapis.com/auth/webmasters.readonly']
     site_url = 'sc-domain:botpresso.com'  # or 'sc-domain:botpresso.com'
 
